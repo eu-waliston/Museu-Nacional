@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Museu Nacional</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./node_modules/normalize.css/normalize.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" integrity="sha512-UDJtJXfzfsiPPgnI5S1000FPLBHMhvzAMX15I+qG2E2OAzC9P1JzUwJOfnypXiOH7MRPaqzhPbBGDNNj7zBfoA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+  <div id="container"> <!--Inicio Container-->
+
+    <header><!--Incio do Header-->
+      <div id="logo">
+        <h1>
+          <a href="#">Museu Nacional</a>
+        </h1>
+      </div>
+
+      <nav><!--Inicio da NAV-->
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Exposição</a></li>
+          <li><a href="#">Pesquisa</a></li>
+          <li><a href="#">Acervo</a></li>
+          <li><a href="#">fotos</a></li>
+          <li><a href="#">contato</a></li>
+        </ul>
+      </nav><!--Fim da NAV-->
+    </header><!--Fim do Header-->
+
+    <div id="principal">
+      <div id="conteudo"><!--Inicio do conteudo principal-->
+        <section id="capa">
+          <img src="./img/museu.png" alt="">
+        </section>
+
+        <section id="postagens">
+
+          <article id="video">
+            <h3>video: conheça o museu</h3>
+            <iframe width="310" height="170" src="https://www.youtube.com/embed/htXo6Y0Ean4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </article>
+
+          <article id="mapa">
+            <h3>mapa: encontre o moseu</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3685.895676587671!2d-43.177837884571325!3d-22.508096985216095!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9908004e1d5b27%3A0x3276bb74b7c165c9!2sMuseu%20Imperial!5e0!3m2!1spt-BR!2sbr!4v1644348540189!5m2!1spt-BR!2sbr" width="310" height="170" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </article>
+
+          <article id="exposicoes">
+            <h3>Exposições</h3>
+            <ul>
+              <li>
+                <a href="#">OS assustadores insetos</a>
+              </li>
+
+              <li>
+                <a href="#">O crânio de Luzia, a mulher mais antiga do Brasil</a>
+              </li>
+
+              <li>
+                <a href="#">Preguiça gigante e tigre-dentes-desabre</a>
+              </li>
+
+              <li>
+                <a href="#">Plantas do Brasil Central</a>
+              </li>
+
+              <li>
+                <a href="#">Teresa Cristina: A Imperatriz Arqueóloga</a>
+              </li>
+              <li>
+                <a href="#">Arte Com Dinossauros - PaleoArte</a>
+              </li>
+              <li>
+                <a href="#">Veja todos (150)</a>
+              </li>
+            </ul>
+          </article>
+
+          <article id="historia">
+            <h3>200 Anos de História</h3>
+            <p>
+              Numa ponta que avançava sobre o mar, posteriormente conhecida como Ponta do Calabouço, entre as praias de Piaçaba e Santa Luzia, no centro histórico do Rio de Janeiro, os portugueses construíram em 1603 a Fortaleza de Santiago, origem do conjunto arquitetônico que hoje abriga o Museu Histórico Nacional.
+            </p>
+            <a href="#"><strong>Leia mais</strong></a>
+          </article>
+
+        </section>
+      </div><!--Fim do conteudo principal-->
+
+      <aside><!--Inicio do ASIDE-->
+        <section id="depoimento">
+          <img src="./img/depoimento.png" alt="">
+        </section>
+
+        <section id="visita"> <!--Inicio da sessaão-->
+          <h4>Faça uma visita</h4>
+          <form>
+            <fieldset>
+              <legend class="someInferno">Selecione uma data</legend>
+              <label for="data">Data: </label>
+              <input class="campo" type="text" id="data" value="dd/mm/aaaa">
+
+              <label for="qtd">Número de Pessoas: </label>
+              <input class="campo" style="width: 30px;" type="text" id="qtd" value="1">
+
+            </fieldset>
+
+            <input class="botao" type="submit" value="Verificar Disponibilidade">
+          </form>
+        </section> <!--Fim da sessaão visita-->
+
+        <section id="galeria">
+          <h2>Galeria de fotos</h2>
+
+          <a href="#">
+            <img src="./img/imagem1.jpg" alt="" height="93" width="93">
+          </a>
+
+          <a href="#">
+            <img src="./img/imagem2.jpg" alt="" height="93" width="93">
+          </a>
+
+          <a href="#">
+            <img src="./img/imagem3.jpg" alt="" height="93" width="93">
+          </a>
+
+          <a href="#">
+            <img src="./img/imagem4.jpg" alt="" height="93" width="93">
+          </a>
+
+          <a href="#">
+            <img src="./img/imagem5.jpg" alt="" height="93" width="93">
+          </a>
+
+          <a href="#">
+            <img src="./img/imagem6.jpg" alt="" height="93" width="93">
+          </a>
+
+        </section>
+      </aside><!--Fim do ASIDE-->
+
+      <footer>
+        <p>
+          <a href="#">Home</a>
+          <a href="#">Exposições</a>
+          <a href="#">Pesquisa</a>
+          <a href="#">acervo</a>
+          <a href="#">vídeos</a>
+          <a href="#">fotos</a>
+          <a href="#">contatos</a>
+        </p>
+
+        <p>
+          2022 <a href="#">Museu Nacional</a>  &copy; Todos os dureitos Reservados.
+        </p>
+      </footer>
+    </div>
+  </div><!--Fim do Container-->
+</body>
+</html>
